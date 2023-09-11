@@ -13,6 +13,8 @@ If you are not familiar with the different technologies used in this project, pl
 - [Prisma](https://prisma.io)
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
+- DasyUI
+- SASS
 
 ## Learn More
 
