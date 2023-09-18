@@ -15,6 +15,7 @@ If you are not familiar with the different technologies used in this project, pl
 - [tRPC](https://trpc.io)
 - DasyUI
 - SASS
+- Firebase
 
 ## Learn More
 
