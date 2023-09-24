@@ -1,6 +1,4 @@
-import Button from "@/components/common/Button/Button";
 import Head from "next/head";
-import Link from "next/link";
 import { useSession } from "next-auth/react";
 import HomeComponent from "@/components/Home";
 
