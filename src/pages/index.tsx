@@ -18,7 +18,6 @@ export default function Home() {
           {/*           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
             {session ? `Welcome ${session.user.name}` : "Welcome"}
           </h1> */}
-
           <HomeComponent />
         </div>
       </main>

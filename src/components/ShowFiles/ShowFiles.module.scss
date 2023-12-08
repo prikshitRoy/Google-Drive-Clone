@@ -4,10 +4,32 @@
   object-fit: cover;
 }
 
+.files {
+  width: 200px;
+  height: 200px;
+  background-color: #64748b;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
 .filesGrid {
   width: 100%;
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 30%;
+  grid-template-columns: repeat(6, auto);
+  gap: 30px;
   justify-content: center;
+  margin-top: 60px;
+}
+
+.imageLink {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
 }

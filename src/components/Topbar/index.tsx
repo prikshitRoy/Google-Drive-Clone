@@ -6,10 +6,14 @@ import styles from "./Topbar.module.scss";
 
 export default function Topbar() {
   let { session } = useFetchSession();
+  console.log(session?.user.email);
   return (
     <div className={styles.authBtn}>
       {session ? (
-        <img className={styles.ProfileImg} src={session.user.image as string} />
+        <img
+          className={styles.ProfileImg}
+          src={session?.user.image as string}
+        />
       ) : null}
       <Button
         onClick={session ? () => signOut() : () => signIn()}
